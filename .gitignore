@@ -5,6 +5,7 @@
 .vscode
 .env/
 .venv/
+venv/
 instance/posts.db/
 
 ### Also any macOS specific files
