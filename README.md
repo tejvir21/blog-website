@@ -14,11 +14,11 @@ This is a simple blog website project developed using Flask, HTML, CSS, and Java
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/tejvir21/BlogWebsite.git
+    git clone https://github.com/tejvir21/blog-website.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd BlogWebsite
+    cd blog-website
     ```
 3. Create a virtual environment:
     ```bash
@@ -48,7 +48,7 @@ This is a simple blog website project developed using Flask, HTML, CSS, and Java
 - Add your blog posts in the `posts` directory.
 - Update the `index.html` file to include links to your new posts.
 - Customize the styles in the `static/styles.css` file.
-- Modify the Flask routes in `app.py` to handle new pages or features.
+- Modify the Flask routes in `server.py` to handle new pages or features.
 
 ## Features
 

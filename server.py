@@ -63,6 +63,7 @@ gravatar = Gravatar(app,
 Base = declarative_base()
 
 app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv("DB_URI")
+app.config["SQLALCHEMY_ENGINE_OPTIONS"] = {"pool_pre_ping": True}
 db = SQLAlchemy(model_class=Base)
 db.init_app(app)
 
